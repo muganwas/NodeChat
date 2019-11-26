@@ -47,4 +47,39 @@ h3{
     box-sizing: border-box;
     height: 40px;
 }
+.incoming-message{
+    padding: 5px 10px;
+    text-align: left;
+    background-color: beige;
+    font-size: 13px;
+    color:#C60788;
+}
+.outgoing-message{
+    padding: 5px 10px;
+    text-align: right;
+    margin: 3px 0;
+    background-color: beige;
+    font-size: 13px;
+    color:#0055A4;
+}
+.join-message{
+    padding: 5px 10px;
+    text-align: right;
+    margin: 3px 0;
+    background-color: beige;
+    font-size: 11px;
+    color:#000;
+}
+.left-message{
+    padding: 5px 10px;
+    text-align: right;
+    margin: 3px 0;
+    background-color: beige;
+    font-size: 11px;
+    color:rgb(139, 139, 139);
+}
+.name{
+    font-weight: bold;
+    text-transform: capitalize;
+}
 
