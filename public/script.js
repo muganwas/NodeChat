@@ -1,4 +1,4 @@
-const socket = io("http://localhost:4000");
+const socket = io("https://ka-chat-server-dev.herokuapp.com");
 const chatHeader = document.getElementById('chat-header');
 const chatForm = document.getElementById('chat-form');
 const chatInput = document.getElementById('chat-input');
