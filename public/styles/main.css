@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.main{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    height: 100vh;
+    margin: 0 10%;
+}
+.chat-header{
+    position: static;
+    margin-top: 0;
+    display: block;
+    background-color: #D4D4D4;
+    padding: 5px 10px;
+}
+.chats-display{
+    position: relative;
+    display: block;
+    height: 80%;
+}
+.input-container{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+#chat-form{
+    display: flex;
+    flex-direction: row;
+}
+#chat-input{
+    flex:5;
+    box-sizing: border-box;
+    height: 40px;
+}
+#submit{
+    flex:1;
+    box-sizing: border-box;
+    height: 40px;
+}
+
