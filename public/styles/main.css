@@ -9,6 +9,9 @@ h3{
     font-size: 18px;
     font-weight: bold;
 }
+.hidden {
+    display: none;
+}
 .main{
     position: relative;
     box-sizing: border-box;
@@ -41,6 +44,10 @@ h3{
     flex:5;
     box-sizing: border-box;
     height: 40px;
+}
+#connection-status {
+    font-size: 12px;
+    padding: 5px;
 }
 #submit{
     flex:1;

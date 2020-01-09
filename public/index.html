@@ -8,9 +8,13 @@
     </head>
     <body>
         <div class="main">
-            <h1 id="chat-header" class="chat-header">Waiting to join...</h1>
+            <h1 class="chat-header">
+                <button id="join"></button>
+                <button id="leave" class="hidden"></button>
+                <div id='connection-status' class="hidden"></div>
+            </h1>
             <div id="message-container" class="chats-display"></div>
-            <div class="input-container">
+            <div id='input-container' class="input-container hidden">
                 <form id="chat-form">
                     <input id="chat-input" type="text" />
                     <button id="submit" type="submit">Send</button>
